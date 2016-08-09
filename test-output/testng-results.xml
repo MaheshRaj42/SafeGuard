@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57998" started-at="2016-08-09T05:48:20Z" finished-at="2016-08-09T05:49:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57998" started-at="2016-08-09T05:48:20Z" finished-at="2016-08-09T05:49:18Z">
+      <class name="SG_Scenario_Component.Scenario_SG">
+        <test-method status="PASS" signature="testSafeguard2()[pri:0, instance:SG_Scenario_Component.Scenario_SG@9660f4e]" name="testSafeguard2" duration-ms="57981" started-at="2016-08-09T11:18:20Z" finished-at="2016-08-09T11:19:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard2 -->
+      </class> <!-- SG_Scenario_Component.Scenario_SG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
