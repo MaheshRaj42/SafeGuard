@@ -5,7 +5,8 @@
     <classes>
       <class name="SG_Scenario_Component.Scenario_SG">
         <methods>
-          <include name="testSafeguard2"/>
+          <include name="testSafeguard37"/>
+          <include name="testSafeguard38"/>
         </methods>
       </class> <!-- SG_Scenario_Component.Scenario_SG -->
     </classes>

@@ -13,8 +13,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import io.appium.java_client.android.AndroidDriver;
+
 
 public class SG_BaseClass {
 
@@ -49,8 +49,7 @@ public class SG_BaseClass {
 		
 		capabilities.setCapability("deviceName", c1.Reading_Properties("Device_Name"));
 		capabilities.setCapability("platformName", c1.Reading_Properties("Platform_Name"));
-		capabilities.setCapability("platformVersion", c1.Reading_Properties("Platform_Version"));
-		
+		capabilities.setCapability("platformVersion", c1.Reading_Properties("Platform_Version"));	
 		
 		capabilities.setCapability("appPackage", c1.Reading_Properties("Package_Name"));
 		capabilities.setCapability("appActivity", c1.Reading_Properties("Activity_Name"));
@@ -87,59 +86,18 @@ public class SG_BaseClass {
 		if(process!=null)
 		{
 			process.destroy();
-			Thread.sleep(10000);
+			Thread.sleep(20000);
 			System.out.println("Server is stopped");
 		}
 	}
 	
-	public static void SG_password() throws IOException, InterruptedException 
-	{
-		String command = "adb shell input text 1234";
-	    Process process8 = Runtime.getRuntime().exec(command);
-	    process8.waitFor();
-	}
-	
 	public static void rebootdevice() throws IOException, InterruptedException
 	{
-		//String command = "adb reboot";
+		String command = "adb reboot";
 		Process process2 = Runtime.getRuntime().exec("adb reboot");
 		process2.waitFor();
 		
 	}
 	
-	public static void DPADdownKeys() throws IOException, InterruptedException 
-	{
-		String command = "adb shell input keyevent KEYCODE_DPAD_DOWN";
-	    Process process3 = Runtime.getRuntime().exec(command);
-	    process3.waitFor();
-	}
 	
-	public static void DPADCenterKeys() throws IOException, InterruptedException 
-	{
-		String command = "adb shell input keyevent KEYCODE_DPAD_CENTER";
-	    Process process4 = Runtime.getRuntime().exec(command);
-	    process4.waitFor();
-	}
-	
-	public static void DPADLeftKeys() throws IOException, InterruptedException 
-	{
-		String command = "adb shell input keyevent KEYCODE_DPAD_LEFT";
-	    Process process5 = Runtime.getRuntime().exec(command);
-	    process5.waitFor();
-	}
-	
-	public static void DPADRightrKeys() throws IOException, InterruptedException 
-	{
-		String command = "adb shell input keyevent KEYCODE_DPAD_RIGHT";
-	    Process process6 = Runtime.getRuntime().exec(command);
-	    process6.waitFor();
-	}
-	
-	public static void DPADUpKeys() throws IOException, InterruptedException 
-	{
-		String command = "adb shell input keyevent KEYCODE_DPAD_UP";
-	    Process process7 = Runtime.getRuntime().exec(command);
-	    process7.waitFor();
-	}
-	
-}
+ }

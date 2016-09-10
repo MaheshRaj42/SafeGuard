@@ -1,0 +1,18 @@
+2016-08-10 10:11:08 INFO  Scenario_SG:24 - Executing the TestCase 1
+2016-08-10 10:12:14 INFO  Scenario_SG:58 - Executing the TestCase 2
+2016-08-10 10:12:38 INFO  Scenario_SG:89 - Executing the TestCase 3
+2016-08-10 10:13:01 INFO  Scenario_SG:122 - Executing the TestCase 4
+2016-08-10 10:13:34 INFO  Scenario_SG:131 - Safe Guard activation status is: On
+2016-08-10 10:14:14 INFO  Scenario_SG:147 - Executing the TestCase 4_1
+2016-08-10 10:14:43 INFO  Scenario_SG:171 - Executing the TestCase 5
+2016-08-10 10:21:33 INFO  Scenario_SG:24 - Executing the TestCase 1
+2016-08-10 10:22:34 INFO  Scenario_SG:58 - Executing the TestCase 2
+2016-08-10 10:23:13 INFO  Scenario_SG:88 - Executing the TestCase 3
+2016-08-10 10:24:21 INFO  Scenario_SG:121 - Executing the TestCase 4
+2016-08-10 10:24:56 INFO  Scenario_SG:130 - Safe Guard activation status is: Off
+2016-08-10 10:25:36 INFO  Scenario_SG:146 - Executing the TestCase 4_1
+2016-08-10 10:26:05 INFO  Scenario_SG:170 - Executing the TestCase 5
+2016-08-10 11:50:56 INFO  Scenario_SG:118 - Executing the TestCase 4
+2016-08-10 11:51:53 INFO  Scenario_SG:141 - Executing the TestCase 4_1
+2016-08-10 11:52:46 INFO  Scenario_SG:163 - Executing the TestCase 5
+2016-08-10 11:53:37 INFO  Scenario_SG:214 - Executing the TestCase 6
