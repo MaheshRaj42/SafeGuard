@@ -12,6 +12,9 @@ import org.openqa.selenium.SessionNotCreatedException;
 import org.openqa.selenium.remote.SessionNotFoundException;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
+
+import com.thoughtworks.selenium.webdriven.commands.WaitForCondition;
+
 import SG_Generic_Component.SG_BaseClass;
 import SG_Page_Object_Component.Page_Object_SG;
 import io.appium.java_client.AppiumDriver;
@@ -32,6 +35,7 @@ public class Scenario_SG extends SG_BaseClass {
 			log.info("Executing the TestCase 1");
 			Start_Server();
 			Init_app();
+			
 			System.out.println("Capabilities are initiated");
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			driver.sendKeyEvent(AndroidKeyCode.HOME);
@@ -68,11 +72,12 @@ public class Scenario_SG extends SG_BaseClass {
 		try {
 			log.info("Executing the TestCase 2");
 			Start_Server();
+			Thread.sleep(4000);
 			Init_app();
 			
+			System.out.println("Capabilities are initiated");
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			Explicit_Wait(SG_POB.Activation_status.get(0), 25);
-			System.out.println("Capabilities are initiated");
 			String Activation_status = SG_POB.Activation_status.get(0).getText();
 			
 			if(Activation_status == "Off")
@@ -104,7 +109,9 @@ public class Scenario_SG extends SG_BaseClass {
 		try {
 			log.info("Executing the TestCase 3");
 			Start_Server();
+			Thread.sleep(4000);
 			Init_app();
+		
 			System.out.println("Capabilities are initiated");
 			
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);	
@@ -144,7 +151,11 @@ public class Scenario_SG extends SG_BaseClass {
 		try {
 			log.info("Executing the TestCase 4");
 			Start_Server();
+			Thread.sleep(4000);
 			Init_app();
+			
+			
+			System.out.println("Capabilities are initiated");
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);	
 			Explicit_Wait(SG_POB.Activation_option, 25);
 				
@@ -172,8 +183,10 @@ public class Scenario_SG extends SG_BaseClass {
 		try {
 			log.info("Executing the TestCase 4_1");
 			Start_Server();
+			Thread.sleep(4000);
 			Init_app();	
 			
+			System.out.println("Capabilities are initiated");
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			
 			driver.sendKeyEvent(AndroidKeyCode.HOME);
@@ -217,8 +230,11 @@ public class Scenario_SG extends SG_BaseClass {
 			try {
 				log.info("Executing the TestCase 5");
 				Start_Server();
+				Thread.sleep(4000);
 				Init_app();
-				System.out.println("Capabilities are Initiated");
+				
+				System.out.println("Capabilities are initiated");
+			
 				Page_Object_SG SG_POB = new Page_Object_SG(driver);
 				Explicit_Wait(SG_POB.Activation_status.get(0), 25);
 				String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -296,7 +312,11 @@ public class Scenario_SG extends SG_BaseClass {
 			try {
 				log.info("Executing the TestCase 6");
 				Start_Server();
+				
+				Thread.sleep(4000);
 				Init_app();
+				
+				System.out.println("Capabilities are initiated");
 				
 				Page_Object_SG SG_POB = new Page_Object_SG(driver);
 				Explicit_Wait(SG_POB.Applications_option, 25);		
@@ -375,8 +395,10 @@ public class Scenario_SG extends SG_BaseClass {
 			try {
 				log.info("Executing the TestCase 7");
 				Start_Server();
+				Thread.sleep(4000);
 				Init_app();
-				System.out.println("Capabilities are Initiated");
+				
+				System.out.println("Capabilities are initiated");
 				Page_Object_SG SG_POB = new Page_Object_SG(driver);
 				
 				Explicit_Wait(SG_POB.Activation_option, 25);
@@ -405,8 +427,10 @@ public class Scenario_SG extends SG_BaseClass {
 					try {
 						log.info("Executing the TestCase 8");
 						Start_Server();
+						driver.sendKeyEvent(20);
 						Init_app();
 						
+						System.out.println("Capabilities are initiated");
 						Page_Object_SG SG_POB = new Page_Object_SG(driver);
 						Explicit_Wait(SG_POB.Activation_status.get(0), 25);
 						String Activation_status1 = SG_POB.Activation_status.get(0).getText();
@@ -473,7 +497,9 @@ public class Scenario_SG extends SG_BaseClass {
 		try {
 			log.info("Executing the TestCase 9");
 			Start_Server();
+			Thread.sleep(4000);
 			Init_app();
+			
 			System.out.println("Capabilities are initiated");
 			
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
@@ -493,6 +519,7 @@ public class Scenario_SG extends SG_BaseClass {
 				 System.out.println("Entered PIN is a Valid PIN");
 			 }
 			 System.out.println("Activation status is changed from : "+Activation_status1+ " to "+Activation_status2); 
+			 
 			 driver.sendKeyEvent(AndroidKeyCode.HOME);
 			 Stop_Server();
 			 
@@ -511,9 +538,10 @@ public class Scenario_SG extends SG_BaseClass {
 			try {
 				log.info("Executing the TestCase 10");
 				Start_Server();
+				Thread.sleep(4000);
 				Init_app();
-				System.out.println("Capabilities are initiated");
 				
+				System.out.println("Capabilities are initiated");
 				Page_Object_SG SG_POB = new Page_Object_SG(driver);	
 				Explicit_Wait(SG_POB.Activation_status.get(0), 25);
 				String Activation_status1 = SG_POB.Activation_status.get(0).getText();
@@ -531,8 +559,9 @@ public class Scenario_SG extends SG_BaseClass {
 				 } else {
 					 System.out.println("Entered PIN is not a Valid PIN");
 				 }
-				 System.out.println("Activation status is changed from : "+Activation_status1+ " to "+Activation_status2); 
-				 driver.sendKeyEvent(AndroidKeyCode.HOME);
+				 System.out.println("Activation status is changed from : "+Activation_status1+ " to "+Activation_status2);
+				 
+				driver.sendKeyEvent(AndroidKeyCode.HOME);
 				Stop_Server();
 				 
 			}catch(SessionNotCreatedException e){
@@ -554,7 +583,9 @@ public class Scenario_SG extends SG_BaseClass {
 					try {
 						log.info("Executing the TestCase 11");
 						Start_Server();
+						Thread.sleep(4000);
 						Init_app();
+						
 						System.out.println("Capabilities are initiated");
 						
 						Page_Object_SG SG_POB = new Page_Object_SG(driver);
@@ -612,7 +643,9 @@ public class Scenario_SG extends SG_BaseClass {
 					try {
 						log.info("Executing the TestCase 12");
 						Start_Server();
+						Thread.sleep(4000);
 						Init_app();
+						
 						System.out.println("Capabilities are initiated");
 						
 						Page_Object_SG SG_POB = new Page_Object_SG(driver);	
@@ -637,6 +670,7 @@ public class Scenario_SG extends SG_BaseClass {
 				{
 					System.out.println("Applications option is not restricted with PIN");
 				}
+				
 				driver.sendKeyEvent(AndroidKeyCode.HOME);
 				Stop_Server();
 			}catch(InterruptedException e){
@@ -654,7 +688,10 @@ public class Scenario_SG extends SG_BaseClass {
 					try {
 						log.info("Executing the TestCase 13");
 						Start_Server();
+						Thread.sleep(4000);
 						Init_app();
+						
+						System.out.println("Capabilities are initiated");
 
 						Page_Object_SG SG_POB = new Page_Object_SG(driver);
 						String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -714,7 +751,10 @@ public class Scenario_SG extends SG_BaseClass {
 					try {
 						log.info("Executing the TestCase 14");
 						Start_Server();
+						Thread.sleep(4000);
 						Init_app();
+						
+						System.out.println("Capabilities are initiated");
 
 						Page_Object_SG SG_POB = new Page_Object_SG(driver);
 						String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -740,6 +780,7 @@ public class Scenario_SG extends SG_BaseClass {
 					if(SG_POB.Applications_option.isDisplayed()){
 					  System.out.println("Applications option restricted to access with wrong PIN Entry - PIN Verification screenshot has been captured and saved");
 					 }
+					
 					driver.sendKeyEvent(AndroidKeyCode.HOME);
 					Stop_Server();				 
 					}catch(InterruptedException e){
@@ -759,8 +800,10 @@ public class Scenario_SG extends SG_BaseClass {
 					try {
 						log.info("Executing the TestCase 15");
 						Start_Server();
+						Thread.sleep(4000);
 						Init_app();
-                        System.out.println("Capabilities are Initiated");
+						
+						System.out.println("Capabilities are initiated");
 						Page_Object_SG SG_POB = new Page_Object_SG(driver);
 						String Activation_Status = SG_POB.Activation_status.get(0).getText();
 						
@@ -796,6 +839,7 @@ public class Scenario_SG extends SG_BaseClass {
 						{
 							System.out.println("Cancel option is not available");
 						}
+						
 						driver.sendKeyEvent(AndroidKeyCode.HOME);
 						Stop_Server();
 					}catch(InterruptedException e){
@@ -812,8 +856,10 @@ public class Scenario_SG extends SG_BaseClass {
 					try {
 						log.info("Executing the TestCase 16");
 						Start_Server();
+						Thread.sleep(4000);
 						Init_app();
-                        System.out.println("Capabilities are Initiated");
+						
+						System.out.println("Capabilities are initiated");
 						Page_Object_SG SG_POB = new Page_Object_SG(driver);
 						String Activation_Status = SG_POB.Activation_status.get(0).getText();
 						
@@ -862,7 +908,10 @@ public class Scenario_SG extends SG_BaseClass {
 							try {
 								log.info("Executing the TestCase 17");
 								Start_Server();
+								Thread.sleep(4000);
 								Init_app();
+								
+								System.out.println("Capabilities are initiated");
 
 								Page_Object_SG SG_POB = new Page_Object_SG(driver);
 								String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -912,7 +961,10 @@ public class Scenario_SG extends SG_BaseClass {
 							try {
 								log.info("Executing the TestCase 18");
 								Start_Server();
+								Thread.sleep(4000);
 								Init_app();
+								
+								System.out.println("Capabilities are initiated");
 
 								Page_Object_SG SG_POB = new Page_Object_SG(driver);
 								String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -966,7 +1018,10 @@ public class Scenario_SG extends SG_BaseClass {
 							try {
 								log.info("Executing the TestCase 19");
 								Start_Server();
+								Thread.sleep(4000);
 								Init_app();
+								
+								System.out.println("Capabilities are initiated");
 
 								Page_Object_SG SG_POB = new Page_Object_SG(driver);
 								String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1009,7 +1064,10 @@ public class Scenario_SG extends SG_BaseClass {
 							try {
 							log.info("Executing the TestCase 20");
 							Start_Server();
+							Thread.sleep(4000);
 							Init_app();
+							
+							System.out.println("Capabilities are initiated");
 
 						Page_Object_SG SG_POB = new Page_Object_SG(driver);
 						String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1049,7 +1107,10 @@ public class Scenario_SG extends SG_BaseClass {
 							try {
 							log.info("Executing the TestCase 21");
 							Start_Server();
+							Thread.sleep(4000);
 							Init_app();
+							
+							System.out.println("Capabilities are initiated");
 
 						Page_Object_SG SG_POB = new Page_Object_SG(driver);
 						String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1089,7 +1150,10 @@ public class Scenario_SG extends SG_BaseClass {
 		try {
 			log.info("Executing the TestCase 22");
 			Start_Server();
+			Thread.sleep(4000);
 			Init_app();
+			
+			System.out.println("Capabilities are initiated");
 
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1152,7 +1216,10 @@ public class Scenario_SG extends SG_BaseClass {
 		try {
 			log.info("Executing the TestCase 23");
 			Start_Server();
+			Thread.sleep(4000);
 			Init_app();
+			
+			System.out.println("Capabilities are initiated");
 
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1193,7 +1260,10 @@ public class Scenario_SG extends SG_BaseClass {
 		try {
 			log.info("Executing the TestCase 24");
 			Start_Server();
+			Thread.sleep(4000);
 			Init_app();
+			
+			System.out.println("Capabilities are initiated");
 
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1249,7 +1319,10 @@ public class Scenario_SG extends SG_BaseClass {
 		try {
 			log.info("Executing the TestCase 25");
 			Start_Server();
+			Thread.sleep(4000);
 			Init_app();
+			
+			System.out.println("Capabilities are initiated");
 
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1299,7 +1372,10 @@ public class Scenario_SG extends SG_BaseClass {
 				try {
 					log.info("Executing the TestCase 26");
 					Start_Server();
+					Thread.sleep(4000);
 					Init_app();
+					
+					System.out.println("Capabilities are initiated");
 
 					Page_Object_SG SG_POB = new Page_Object_SG(driver);
 					String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1349,7 +1425,10 @@ public class Scenario_SG extends SG_BaseClass {
 				try {
 					log.info("Executing the TestCase 27");
 					Start_Server();
+					Thread.sleep(4000);
 					Init_app();
+					
+					System.out.println("Capabilities are initiated");
 
 					Page_Object_SG SG_POB = new Page_Object_SG(driver);
 					String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1401,7 +1480,10 @@ public class Scenario_SG extends SG_BaseClass {
 				try {
 					log.info("Executing the TestCase 28");
 					Start_Server();
+					Thread.sleep(4000);
 					Init_app();
+					
+					System.out.println("Capabilities are initiated");
 
 					Page_Object_SG SG_POB = new Page_Object_SG(driver);
 					String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1444,7 +1526,10 @@ public class Scenario_SG extends SG_BaseClass {
 		try {
 			log.info("Executing the TestCase 29");
 			Start_Server();
+			Thread.sleep(4000);
 			Init_app();
+			
+			System.out.println("Capabilities are initiated");
 
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1484,7 +1569,10 @@ public class Scenario_SG extends SG_BaseClass {
 		      try {
 			   log.info("Executing the TestCase 31");
 			   Start_Server();
+			   Thread.sleep(4000);
 			   Init_app();
+			   
+			   System.out.println("Capabilities are initiated");
 
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1559,7 +1647,10 @@ public class Scenario_SG extends SG_BaseClass {
 		      try {
 			   log.info("Executing the TestCase 32");
 			   Start_Server();
+			   Thread.sleep(4000);
 			   Init_app();
+			   
+			   System.out.println("Capabilities are initiated");
 
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1636,7 +1727,10 @@ public class Scenario_SG extends SG_BaseClass {
 		      try {
 			   log.info("Executing the TestCase 33");
 			   Start_Server();
+			   Thread.sleep(4000);
 			   Init_app();
+			   
+			   System.out.println("Capabilities are initiated");
 
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1695,7 +1789,10 @@ public class Scenario_SG extends SG_BaseClass {
 		      try {
 			   log.info("Executing the TestCase 30");
 			   Start_Server();
+			   Thread.sleep(4000);
 			   Init_app();
+			   
+			   System.out.println("Capabilities are initiated");
 
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1741,7 +1838,10 @@ public class Scenario_SG extends SG_BaseClass {
 		    	 
 			   log.info("Executing the TestCase 34");
 			   Start_Server();
+			   Thread.sleep(4000);
 			   Init_app();
+			   
+			   System.out.println("Capabilities are initiated");
 
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			
@@ -1765,7 +1865,10 @@ public class Scenario_SG extends SG_BaseClass {
 		    	 
 			   log.info("Executing the TestCase 35");
 			   Start_Server();
+			   Thread.sleep(4000);
 			   Init_app();
+			   
+			   System.out.println("Capabilities are initiated");
 
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			String Activation_status = SG_POB.Activation_status.get(0).getText();
@@ -1820,7 +1923,10 @@ public class Scenario_SG extends SG_BaseClass {
 		    	 
 			   log.info("Executing the TestCase 36");
 			   Start_Server();
+			   Thread.sleep(4000);
 			   Init_app();
+			  
+			   System.out.println("Capabilities are initiated");
 
 			Page_Object_SG SG_POB = new Page_Object_SG(driver);
 			 String Activation_status_spanish = SG_POB.Activation_status.get(0).getText();
@@ -1864,7 +1970,10 @@ public class Scenario_SG extends SG_BaseClass {
 		    	 
 			   log.info("Executing the TestCase 37");
 			   Start_Server();
+			   Thread.sleep(4000);
 			   Init_app();
+			  
+			   System.out.println("Capabilities are initiated");
 			 
 				Page_Object_SG SG_POB = new Page_Object_SG(driver);
 				String Activation_Status = SG_POB.Activation_status.get(0).getText();
@@ -1977,7 +2086,10 @@ public class Scenario_SG extends SG_BaseClass {
 		    	 
 			   log.info("Executing the TestCase 38");
 			   Start_Server();
+			   Thread.sleep(4000);
 			   Init_app();
+			   
+			   System.out.println("Capabilities are initiated");
 			 
 				Page_Object_SG SG_POB = new Page_Object_SG(driver);
 				String Activation_Status = SG_POB.Activation_status.get(0).getText();

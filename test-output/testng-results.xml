@@ -1,29 +1,464 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="5" total="39" passed="34">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="504182" started-at="2016-09-10T13:58:57Z" finished-at="2016-09-10T14:07:21Z">
+  <suite name="Default suite" duration-ms="3243132" started-at="2016-09-12T07:44:21Z" finished-at="2016-09-12T08:38:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="504182" started-at="2016-09-10T13:58:57Z" finished-at="2016-09-10T14:07:21Z">
+    <test name="Default test" duration-ms="3243132" started-at="2016-09-12T07:44:21Z" finished-at="2016-09-12T08:38:24Z">
       <class name="SG_Scenario_Component.Scenario_SG">
-        <test-method status="PASS" signature="testSafeguard34()[pri:0, instance:SG_Scenario_Component.Scenario_SG@6c49835d]" name="testSafeguard34" duration-ms="49552" started-at="2016-09-10T19:28:57Z" finished-at="2016-09-10T19:29:46Z">
+        <test-method status="PASS" signature="testSafeguard1()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard1" duration-ms="60196" started-at="2016-09-12T13:14:21Z" finished-at="2016-09-12T13:15:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard1 -->
+        <test-method status="PASS" signature="testSafeguard2()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard2" duration-ms="53034" started-at="2016-09-12T13:15:21Z" finished-at="2016-09-12T13:16:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard2 -->
+        <test-method status="PASS" signature="testSafeguard3()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard3" duration-ms="74947" started-at="2016-09-12T13:16:14Z" finished-at="2016-09-12T13:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard3 -->
+        <test-method status="PASS" signature="testSafeguard4()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard4" duration-ms="52065" started-at="2016-09-12T13:17:29Z" finished-at="2016-09-12T13:18:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard4 -->
+        <test-method status="PASS" signature="testSafeguard4_1()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard4_1" duration-ms="65838" started-at="2016-09-12T13:18:21Z" finished-at="2016-09-12T13:19:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard4_1 -->
+        <test-method status="PASS" signature="testSafeguard5()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard5" duration-ms="152183" started-at="2016-09-12T13:19:27Z" finished-at="2016-09-12T13:21:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard5 -->
+        <test-method status="PASS" signature="testSafeguard6()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard6" duration-ms="148037" started-at="2016-09-12T13:21:59Z" finished-at="2016-09-12T13:24:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard6 -->
+        <test-method status="PASS" signature="testSafeguard7()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard7" duration-ms="53537" started-at="2016-09-12T13:24:27Z" finished-at="2016-09-12T13:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard7 -->
+        <test-method status="FAIL" signature="testSafeguard8()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard8" duration-ms="22056" started-at="2016-09-12T13:25:21Z" finished-at="2016-09-12T13:25:43Z">
+          <exception class="org.openqa.selenium.remote.SessionNotFoundException">
+            <message>
+              <![CDATA[
+Command duration or timeout: 45 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'SIDCD158', ip: '10.15.252.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.sonim.safeguard, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=6f244fc9, platform=LINUX, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, desired={appPackage=com.sonim.safeguard, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, platformVersion=4.4.2, platformName=Android, deviceName=XP5700}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: d31b559a-7dee-4254-8a9c-25454a59da64]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 45 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'SIDCD158', ip: '10.15.252.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.sonim.safeguard, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=6f244fc9, platform=LINUX, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, desired={appPackage=com.sonim.safeguard, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, platformVersion=4.4.2, platformName=Android, deviceName=XP5700}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: d31b559a-7dee-4254-8a9c-25454a59da64
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.android.AndroidDriver.sendKeyEvent(AndroidDriver.java:80)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard8(Scenario_SG.java:427)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.SessionNotFoundException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard8 -->
+        <test-method status="PASS" signature="testSafeguard9()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard9" duration-ms="74268" started-at="2016-09-12T13:25:43Z" finished-at="2016-09-12T13:26:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard9 -->
+        <test-method status="PASS" signature="testSafeguard10()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard10" duration-ms="26033" started-at="2016-09-12T13:26:57Z" finished-at="2016-09-12T13:27:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard10 -->
+        <test-method status="PASS" signature="testSafeguard11()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard11" duration-ms="99158" started-at="2016-09-12T13:27:23Z" finished-at="2016-09-12T13:29:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard11 -->
+        <test-method status="FAIL" signature="testSafeguard12()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard12" duration-ms="26021" started-at="2016-09-12T13:29:02Z" finished-at="2016-09-12T13:29:28Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'SIDCD158', ip: '10.15.252.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'SIDCD158', ip: '10.15.252.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
+	at SG_Generic_Component.SG_BaseClass.Init_app(SG_BaseClass.java:57)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard12(Scenario_SG.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard12 -->
+        <test-method status="PASS" signature="testSafeguard13()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard13" duration-ms="122210" started-at="2016-09-12T13:29:28Z" finished-at="2016-09-12T13:31:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard13 -->
+        <test-method status="FAIL" signature="testSafeguard14()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard14" duration-ms="26025" started-at="2016-09-12T13:31:30Z" finished-at="2016-09-12T13:31:57Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'SIDCD158', ip: '10.15.252.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'SIDCD158', ip: '10.15.252.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
+	at SG_Generic_Component.SG_BaseClass.Init_app(SG_BaseClass.java:57)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard14(Scenario_SG.java:752)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard14 -->
+        <test-method status="PASS" signature="testSafeguard15()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard15" duration-ms="78846" started-at="2016-09-12T13:31:57Z" finished-at="2016-09-12T13:33:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard15 -->
+        <test-method status="FAIL" signature="testSafeguard16()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard16" duration-ms="26026" started-at="2016-09-12T13:33:15Z" finished-at="2016-09-12T13:33:41Z">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
+            <message>
+              <![CDATA[A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'SIDCD158', ip: '10.15.252.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'SIDCD158', ip: '10.15.252.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:158)
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:39)
+	at SG_Generic_Component.SG_BaseClass.Init_app(SG_BaseClass.java:57)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard16(Scenario_SG.java:857)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard16 -->
+        <test-method status="FAIL" signature="testSafeguard17()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard17" duration-ms="60262" started-at="2016-09-12T13:33:41Z" finished-at="2016-09-12T13:34:42Z">
+          <exception class="org.openqa.selenium.remote.UnreachableBrowserException">
+            <message>
+              <![CDATA[Error communicating with the remote browser. It may have died.
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'SIDCD158', ip: '10.15.252.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.sonim.safeguard, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=6f244fc9, platform=LINUX, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, desired={appPackage=com.sonim.safeguard, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, platformVersion=4.4.2, platformName=Android, deviceName=XP5700}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: d0f3ea7e-3323-43da-9116-3beb593c0387]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'SIDCD158', ip: '10.15.252.134', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.sonim.safeguard, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=6f244fc9, platform=LINUX, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, desired={appPackage=com.sonim.safeguard, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, platformVersion=4.4.2, platformName=Android, deviceName=XP5700}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: d0f3ea7e-3323-43da-9116-3beb593c0387
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.android.AndroidDriver.sendKeyEvent(AndroidDriver.java:80)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard17(Scenario_SG.java:943)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.http.impl.conn.CPoolProxy.invoke(CPoolProxy.java:138)
+	at com.sun.proxy.$Proxy4.receiveResponseHeader(Unknown Source)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.remote.UnreachableBrowserException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard17 -->
+        <test-method status="PASS" signature="testSafeguard18()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard18" duration-ms="76312" started-at="2016-09-12T13:34:42Z" finished-at="2016-09-12T13:35:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard18 -->
+        <test-method status="PASS" signature="testSafeguard19()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard19" duration-ms="76017" started-at="2016-09-12T13:35:58Z" finished-at="2016-09-12T13:37:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard19 -->
+        <test-method status="PASS" signature="testSafeguard20()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard20" duration-ms="101939" started-at="2016-09-12T13:37:14Z" finished-at="2016-09-12T13:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard20 -->
+        <test-method status="PASS" signature="testSafeguard21()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard21" duration-ms="53779" started-at="2016-09-12T13:38:56Z" finished-at="2016-09-12T13:39:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard21 -->
+        <test-method status="PASS" signature="testSafeguard22()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard22" duration-ms="113772" started-at="2016-09-12T13:39:50Z" finished-at="2016-09-12T13:41:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard22 -->
+        <test-method status="PASS" signature="testSafeguard23()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard23" duration-ms="74042" started-at="2016-09-12T13:41:43Z" finished-at="2016-09-12T13:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard23 -->
+        <test-method status="PASS" signature="testSafeguard24()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard24" duration-ms="75201" started-at="2016-09-12T13:42:58Z" finished-at="2016-09-12T13:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard24 -->
+        <test-method status="PASS" signature="testSafeguard25()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard25" duration-ms="81205" started-at="2016-09-12T13:44:13Z" finished-at="2016-09-12T13:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard25 -->
+        <test-method status="PASS" signature="testSafeguard26()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard26" duration-ms="79701" started-at="2016-09-12T13:45:34Z" finished-at="2016-09-12T13:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard26 -->
+        <test-method status="PASS" signature="testSafeguard27()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard27" duration-ms="75358" started-at="2016-09-12T13:46:54Z" finished-at="2016-09-12T13:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard27 -->
+        <test-method status="PASS" signature="testSafeguard28()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard28" duration-ms="78806" started-at="2016-09-12T13:48:09Z" finished-at="2016-09-12T13:49:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard28 -->
+        <test-method status="PASS" signature="testSafeguard29()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard29" duration-ms="76512" started-at="2016-09-12T13:49:28Z" finished-at="2016-09-12T13:50:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard29 -->
+        <test-method status="PASS" signature="testSafeguard30()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard30" duration-ms="75297" started-at="2016-09-12T13:50:44Z" finished-at="2016-09-12T13:52:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard30 -->
+        <test-method status="PASS" signature="testSafeguard31()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard31" duration-ms="179350" started-at="2016-09-12T13:52:00Z" finished-at="2016-09-12T13:54:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard31 -->
+        <test-method status="PASS" signature="testSafeguard32()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard32" duration-ms="179381" started-at="2016-09-12T13:54:59Z" finished-at="2016-09-12T13:57:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard32 -->
+        <test-method status="PASS" signature="testSafeguard33()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard33" duration-ms="117714" started-at="2016-09-12T13:57:58Z" finished-at="2016-09-12T13:59:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSafeguard33 -->
+        <test-method status="PASS" signature="testSafeguard34()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard34" duration-ms="53071" started-at="2016-09-12T13:59:56Z" finished-at="2016-09-12T14:00:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSafeguard34 -->
-        <test-method status="PASS" signature="testSafeguard35()[pri:0, instance:SG_Scenario_Component.Scenario_SG@6c49835d]" name="testSafeguard35" duration-ms="71267" started-at="2016-09-10T19:29:46Z" finished-at="2016-09-10T19:30:58Z">
+        <test-method status="PASS" signature="testSafeguard35()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard35" duration-ms="69074" started-at="2016-09-12T14:00:49Z" finished-at="2016-09-12T14:01:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSafeguard35 -->
-        <test-method status="PASS" signature="testSafeguard36()[pri:0, instance:SG_Scenario_Component.Scenario_SG@6c49835d]" name="testSafeguard36" duration-ms="71994" started-at="2016-09-10T19:30:58Z" finished-at="2016-09-10T19:32:10Z">
+        <test-method status="PASS" signature="testSafeguard36()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard36" duration-ms="67530" started-at="2016-09-12T14:01:58Z" finished-at="2016-09-12T14:03:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSafeguard36 -->
-        <test-method status="PASS" signature="testSafeguard37()[pri:0, instance:SG_Scenario_Component.Scenario_SG@6c49835d]" name="testSafeguard37" duration-ms="165466" started-at="2016-09-10T19:32:10Z" finished-at="2016-09-10T19:34:55Z">
+        <test-method status="PASS" signature="testSafeguard37()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard37" duration-ms="164127" started-at="2016-09-12T14:03:06Z" finished-at="2016-09-12T14:05:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSafeguard37 -->
-        <test-method status="PASS" signature="testSafeguard38()[pri:0, instance:SG_Scenario_Component.Scenario_SG@6c49835d]" name="testSafeguard38" duration-ms="145878" started-at="2016-09-10T19:34:55Z" finished-at="2016-09-10T19:37:21Z">
+        <test-method status="PASS" signature="testSafeguard38()[pri:0, instance:SG_Scenario_Component.Scenario_SG@1e6d1014]" name="testSafeguard38" duration-ms="153977" started-at="2016-09-12T14:05:50Z" finished-at="2016-09-12T14:08:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSafeguard38 -->

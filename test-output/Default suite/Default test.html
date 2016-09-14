@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>34/5/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Sep 10 19:28:57 IST 2016</td>
+<td>Started on:</td><td>Mon Sep 12 13:14:21 IST 2016</td>
 </tr>
-<tr><td>Total time:</td><td>504 seconds (504182 ms)</td>
+<tr><td>Total time:</td><td>3243 seconds (3243132 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,516 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard12()'><b>testSafeguard12</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;SIDCD158&apos;, ip: &apos;10.15.252.134&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:39)
+	at SG_Generic_Component.SG_BaseClass.Init_app(SG_BaseClass.java:57)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard12(Scenario_SG.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1297502382", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1297502382'><pre>org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;SIDCD158&apos;, ip: &apos;10.15.252.134&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:39)
+	at SG_Generic_Component.SG_BaseClass.Init_app(SG_BaseClass.java:57)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard12(Scenario_SG.java:644)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>26</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard14()'><b>testSafeguard14</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;SIDCD158&apos;, ip: &apos;10.15.252.134&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:39)
+	at SG_Generic_Component.SG_BaseClass.Init_app(SG_BaseClass.java:57)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard14(Scenario_SG.java:752)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1646371921", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1646371921'><pre>org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;SIDCD158&apos;, ip: &apos;10.15.252.134&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:39)
+	at SG_Generic_Component.SG_BaseClass.Init_app(SG_BaseClass.java:57)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard14(Scenario_SG.java:752)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>26</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard16()'><b>testSafeguard16</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td><div><pre>org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;SIDCD158&apos;, ip: &apos;10.15.252.134&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:39)
+	at SG_Generic_Component.SG_BaseClass.Init_app(SG_BaseClass.java:57)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard16(Scenario_SG.java:857)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2067180044", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2067180044'><pre>org.openqa.selenium.SessionNotCreatedException: A new session could not be created. (Original error: Requested a new session but one was in progress) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;SIDCD158&apos;, ip: &apos;10.15.252.134&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:249)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+	at io.appium.java_client.AppiumDriver.&lt;init&gt;(AppiumDriver.java:109)
+	at io.appium.java_client.android.AndroidDriver.&lt;init&gt;(AndroidDriver.java:39)
+	at SG_Generic_Component.SG_BaseClass.Init_app(SG_BaseClass.java:57)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard16(Scenario_SG.java:857)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>26</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard17()'><b>testSafeguard17</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td><div><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;SIDCD158&apos;, ip: &apos;10.15.252.134&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.sonim.safeguard, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=6f244fc9, platform=LINUX, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, desired={appPackage=com.sonim.safeguard, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, platformVersion=4.4.2, platformName=Android, deviceName=XP5700}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: d0f3ea7e-3323-43da-9116-3beb593c0387
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.android.AndroidDriver.sendKeyEvent(AndroidDriver.java:80)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard17(Scenario_SG.java:943)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.http.impl.conn.CPoolProxy.invoke(CPoolProxy.java:138)
+	at com.sun.proxy.$Proxy4.receiveResponseHeader(Unknown Source)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 27 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace580673921", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace580673921'><pre>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;SIDCD158&apos;, ip: &apos;10.15.252.134&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: driver.version: AndroidDriver
+Capabilities [{appPackage=com.sonim.safeguard, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=6f244fc9, platform=LINUX, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, desired={appPackage=com.sonim.safeguard, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, platformVersion=4.4.2, platformName=Android, deviceName=XP5700}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: d0f3ea7e-3323-43da-9116-3beb593c0387
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.android.AndroidDriver.sendKeyEvent(AndroidDriver.java:80)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard17(Scenario_SG.java:943)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:136)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:152)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:270)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:140)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:57)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:260)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:161)
+	at sun.reflect.GeneratedMethodAccessor10.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.http.impl.conn.CPoolProxy.invoke(CPoolProxy.java:138)
+	at com.sun.proxy.$Proxy4.receiveResponseHeader(Unknown Source)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:271)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:123)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:254)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:186)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 27 more
+</pre></div></td>
+<td>60</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard8()'><b>testSafeguard8</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td><div><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 45 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;SIDCD158&apos;, ip: &apos;10.15.252.134&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.sonim.safeguard, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=6f244fc9, platform=LINUX, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, desired={appPackage=com.sonim.safeguard, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, platformVersion=4.4.2, platformName=Android, deviceName=XP5700}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: d31b559a-7dee-4254-8a9c-25454a59da64
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.android.AndroidDriver.sendKeyEvent(AndroidDriver.java:80)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard8(Scenario_SG.java:427)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div><a href='#' onClick='toggleBox("stack-trace891786282", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace891786282'><pre>org.openqa.selenium.remote.SessionNotFoundException: 
+Command duration or timeout: 45 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;SIDCD158&apos;, ip: &apos;10.15.252.134&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_92&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.sonim.safeguard, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=6f244fc9, platform=LINUX, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, desired={appPackage=com.sonim.safeguard, appActivity=com.sonim.safeguard.SGSettingsPreferenceActivity, platformVersion=4.4.2, platformName=Android, deviceName=XP5700}, platformVersion=4.4.2, webStorageEnabled=false, locationContextEnabled=false, browserName=Android, takesScreenshot=true, javascriptEnabled=true, platformName=Android}]
+Session ID: d31b559a-7dee-4254-8a9c-25454a59da64
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:180)
+	at io.appium.java_client.android.AndroidDriver.sendKeyEvent(AndroidDriver.java:80)
+	at SG_Scenario_Component.Scenario_SG.testSafeguard8(Scenario_SG.java:427)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>22</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,30 +585,175 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard1()'><b>testSafeguard1</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>60</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard10()'><b>testSafeguard10</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>26</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard11()'><b>testSafeguard11</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>99</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard13()'><b>testSafeguard13</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>122</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard15()'><b>testSafeguard15</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>78</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard18()'><b>testSafeguard18</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>76</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard19()'><b>testSafeguard19</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>76</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard2()'><b>testSafeguard2</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>53</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard20()'><b>testSafeguard20</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>101</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard21()'><b>testSafeguard21</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>53</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard22()'><b>testSafeguard22</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>113</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard23()'><b>testSafeguard23</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>74</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard24()'><b>testSafeguard24</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>75</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard25()'><b>testSafeguard25</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>81</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard26()'><b>testSafeguard26</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>79</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard27()'><b>testSafeguard27</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>75</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard28()'><b>testSafeguard28</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>78</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard29()'><b>testSafeguard29</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>76</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard3()'><b>testSafeguard3</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>74</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard30()'><b>testSafeguard30</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>75</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard31()'><b>testSafeguard31</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>179</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard32()'><b>testSafeguard32</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>179</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard33()'><b>testSafeguard33</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>117</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
 <td title='SG_Scenario_Component.Scenario_SG.testSafeguard34()'><b>testSafeguard34</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
 <td></td>
-<td>49</td>
-<td>SG_Scenario_Component.Scenario_SG@6c49835d</td></tr>
+<td>53</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
 <tr>
 <td title='SG_Scenario_Component.Scenario_SG.testSafeguard35()'><b>testSafeguard35</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
 <td></td>
-<td>71</td>
-<td>SG_Scenario_Component.Scenario_SG@6c49835d</td></tr>
+<td>69</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
 <tr>
 <td title='SG_Scenario_Component.Scenario_SG.testSafeguard36()'><b>testSafeguard36</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
 <td></td>
-<td>71</td>
-<td>SG_Scenario_Component.Scenario_SG@6c49835d</td></tr>
+<td>67</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
 <tr>
 <td title='SG_Scenario_Component.Scenario_SG.testSafeguard37()'><b>testSafeguard37</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
 <td></td>
-<td>165</td>
-<td>SG_Scenario_Component.Scenario_SG@6c49835d</td></tr>
+<td>164</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
 <tr>
 <td title='SG_Scenario_Component.Scenario_SG.testSafeguard38()'><b>testSafeguard38</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
 <td></td>
-<td>145</td>
-<td>SG_Scenario_Component.Scenario_SG@6c49835d</td></tr>
+<td>153</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard4()'><b>testSafeguard4</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>52</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard4_1()'><b>testSafeguard4_1</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>65</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard5()'><b>testSafeguard5</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>152</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard6()'><b>testSafeguard6</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>148</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard7()'><b>testSafeguard7</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>53</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
+<tr>
+<td title='SG_Scenario_Component.Scenario_SG.testSafeguard9()'><b>testSafeguard9</b><br>Test class: SG_Scenario_Component.Scenario_SG</td>
+<td></td>
+<td>74</td>
+<td>SG_Scenario_Component.Scenario_SG@1e6d1014</td></tr>
 </table><p>
 </body>
 </html>
